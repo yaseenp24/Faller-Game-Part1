@@ -4,7 +4,7 @@ def play_connect_four():
     '''
     Main function that starts the game
     '''
-    rows = int(input())
+    rows = int(input()) 
     cols = int(input())
     game = game_board.ConnectFourGame(rows, cols)
     action = input()
